@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import './tailwind.css';
 import Home from './pages/Home';
 import EventsSeminars from './pages/EventsSeminars';
 
