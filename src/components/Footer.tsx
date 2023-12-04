@@ -7,13 +7,17 @@ const Footer = () => {
             <div className="flex justify-center mt-8 space-x-6">
                 <a href="#" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">X</span>
-                    <img src={x_icon} alt="X logo" className="h-6 w-6" />
+                    <img 
+                      src={x_icon} 
+                      alt="X logo" 
+                      className="h-8 w-8" 
+                    />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Instagram</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-7 w-7"
+                      className="h-8 w-8" 
                       fill="currentColor"
                       style={{ color: "#c13584" }}
                       viewBox="0 0 24 24"
@@ -25,8 +29,8 @@ const Footer = () => {
                     <span className="sr-only">TikTok</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
+                      className="h-8 w-8" 
                       viewBox="0 0 448 512"
-                      className="h-7 w-7"
                       style={{ color: "#6a76ac" }}
                     >
                       <path
@@ -39,7 +43,7 @@ const Footer = () => {
                   <span className="sr-only">YouTube</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-7 w-7"
+                    className="h-9 w-9" 
                     fill="currentColor"
                     style={{ color: "#ff0000" }}
                     viewBox="0 0 24 24"
@@ -85,7 +89,7 @@ const Footer = () => {
                     </nav>
                   </div>
               </div>
-              <h1 className="text-5xl font-bold text-white pt-4">CESINF IX</h1>
+              <h1 className="text-6xl font-bold text-white pt-4">CESINF IX</h1>
               <div className="flex justify-center space-x-10">
                   <div className="">
                     <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORY_3</h2>
