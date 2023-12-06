@@ -52,11 +52,11 @@ const Footer = () => {
                   </svg>
                 </a>
             </div>
-            <div className="flex justify-center space-x-64">
+            <div className="sm:flex sm:justify-center sm:space-x-56">
               <div className="flex justify-center space-x-10">
                   <div className="">
                     <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORY_1</h2>
-                    <nav className="list-none mb-10">
+                    <nav className="list-none">
                       <li>
                         <a href="#" className="text-white hover:text-blue-600">First Link</a>
                       </li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORY_2</h2>
-                    <nav className="list-none mb-10">
+                    <nav className="list-none">
                       <li>
                         <a href="#" className="text-white hover:text-blue-600">First Link</a>
                       </li>
@@ -89,8 +89,8 @@ const Footer = () => {
                     </nav>
                   </div>
               </div>
-              <h1 className="text-6xl font-bold text-white pt-4">CESINF IX</h1>
-              <div className="flex justify-center space-x-10">
+              <h1 className="text-6xl font-bold text-white pt-8 pb-12 text-center">CESINF IX</h1>
+              <div className="flex justify-center space-x-10 mb-12">
                   <div className="">
                     <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORY_3</h2>
                     <nav className="list-none mb-10">
