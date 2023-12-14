@@ -9,6 +9,7 @@ export default {
     colors: {
       'background': '#404040',
       'cesinf-blue': '#6E91BB ',
+      'white': '#FFFFFF',
     }
   },
   plugins: [],
