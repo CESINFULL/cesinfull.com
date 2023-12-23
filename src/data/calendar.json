@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "day": "25",
+    "hours": [
+      {
+        "speaker": "Daria Mcgee",
+        "hour": 1706171400000,
+        "duration": "1h",
+        "speakerAvatar": "/pexels-andrea-piacquadio-813940.jpg",
+        "title": "La temida ansiedad tecnológica",
+        "description": "Un enfoque distinto a la hora de mirar de otra manera las redes y como influyen en nosotros.\n\n¿Sientes que las redes sociales te controlan? ¿Te sientes ansioso o estresado cuando pasas demasiado tiempo conectado? Si la respuesta es sí, es probable que sufras de ansiedad tecnológica.\n\nEn esta charla, Daria Mcgee, experta en psicología de las redes sociales, nos hablará de los síntomas de la ansiedad tecnológica, de las causas y de cómo podemos superarla.\n\nAprenderemos a utilizar las redes sociales de forma más saludable y a reducir su impacto negativo en nuestra vida."
+      },
+      {
+        "speaker": "Juan Pérez",
+        "hour": 1706181400000,
+        "duration": "1h",
+        "speakerAvatar": "/pexels-pixabay-262391.jpg",
+        "title": "La importancia de la lectura",
+        "description": "La lectura es una de las actividades más importantes que podemos realizar. Nos permite aprender sobre el mundo que nos rodea, desarrollar nuestra imaginación y creatividad, y ampliar nuestros horizontes. En esta charla, Juan Pérez, escritor y profesor de literatura, nos hablará de la importancia de la lectura y de cómo podemos fomentarla en nuestra vida."
+      },
+      {
+        "speaker": "Amelia Romero",
+        "hour": 1706191400000,
+        "duration": "1h",
+        "speakerAvatar": "/pexels-fatjon-shullazi-19485802.jpg",
+        "title": "El futuro de la inteligencia artificial",
+        "description": "La inteligencia artificial es una de las tecnologías más disruptivas de nuestro tiempo. En esta charla, Amelia Romero, experta en inteligencia artificial, nos hablará de las últimas tendencias en IA y de cómo esta tecnología está cambiando el mundo."
+      }
+    ]
+  }
+]
