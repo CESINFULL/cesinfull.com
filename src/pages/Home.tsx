@@ -1,9 +1,12 @@
 import NavBar from '../components/NavBar';
+import event1 from '../images/event1.jpg';
+import event2 from '../images/event2.jpg';
+import event3 from '../images/event3.jpg';
 
 const Home = () => {
   return (
     <>
-      <NavBar />
+      <NavBar/>
       <div className='bg-slate-800'>
         <div className='text-xl text-center py-8 '>
           <h1 className="text-5xl font-bold pb-4">CESINF IX</h1>
@@ -22,37 +25,72 @@ const Home = () => {
             presentaciones de proyectos, talleres y ¡mucho más!
           </p>
         </div>
-        <div className='lg:flex place-content-evenly items-center py-12 pb-24'>
+        <div className='lg:flex place-content-evenly items-center py-12'>
           <img 
-            className='lg:w-1/6'
-            src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+            className='lg:w-1/4'
+            src={event1}
             alt='Foto del evento'
             width='200'
           />
           <img 
-            className='lg:w-1/6'
-            src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+            className='lg:w-1/4'
+            src={event3} 
             alt='Foto del evento' 
             width='200'
           />
           <img 
-            className='lg:w-1/6'
-            src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+            className='lg:w-1/4'
+            src={event2} 
             alt='Foto del evento' 
             width='200'
           />
         </div>
-        <div className='mx-40 lg:flex lg:place-content-evenly items-center pb-8'>
+        <h1 className='text-xl text-center pb-2'>PATROCINADORES</h1>
+        <div className='mx-40 lg:flex lg:place-content-evenly items-center pb-24'>
           <div className='flex flex-col items-center text-center'>
-            <h1 className='text-xl'>PATROCINADORES</h1>
             <img 
-              className='lg:w-10/12 mt-4'
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+            <img 
+              className='mt-4'
               src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
               alt='Foto del evento' 
               width='200'
             />
           </div>
-
+          <div className='flex flex-col items-center text-center'>
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+          </div>
+          <div className='flex flex-col items-center text-center'>
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+          </div>
+        </div>
+        <div className='mx-40 lg:flex lg:place-content-evenly items-center pb-8'>
           <div className='flex flex-col items-center text-center'>
             <h2 className='text-xl'>HORARIO</h2>
             <img 
