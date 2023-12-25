@@ -2,7 +2,7 @@
   {
     "id": "1",
     "day": "25",
-    "hours": [
+    "events": [
       {
         "speaker": "Daria Mcgee",
         "hour": 1706171400000,

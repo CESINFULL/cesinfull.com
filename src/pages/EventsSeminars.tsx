@@ -2,17 +2,19 @@ import { Avatar, Select, Timeline } from 'flowbite-react';
 import { useMemo, useState } from 'react';
 import calendarData from '../data/calendar.json';
 
+interface Event {
+  speaker: string;
+  hour: number;
+  duration: string;
+  speakerAvatar: string; // url
+  title: string;
+  description: string;
+}
+
 interface CalendarI {
   id: string;
   day: string;
-  hours: {
-    speaker: string;
-    hour: number;
-    duration: string;
-    speakerAvatar: string; // url
-    title: string;
-    description: string;
-  }[];
+  events: Event[];
 }
 
 const FormatDate = (date: number): string => {
@@ -24,6 +26,18 @@ const FormatDate = (date: number): string => {
   }).format(date);
 };
 
+const FilterData = (data: CalendarI, filter: string): Event[] => {
+  if (!filter) return data.events;
+  filter = filter.toLowerCase();
+
+  return data.events.filter(
+    (hour) =>
+      hour.description.toLowerCase().includes(filter) ||
+      hour.speaker.toLowerCase().includes(filter) ||
+      hour.title.toLowerCase().includes(filter)
+  );
+};
+
 const EventsSeminars = () => {
   const data: CalendarI[] = useMemo(() => calendarData, []);
   const [selectedDay, selectDay] = useState(data[0].day);
@@ -31,7 +45,11 @@ const EventsSeminars = () => {
     () => data.findIndex((calendar) => calendar.day == selectedDay) || 0,
     [data, selectedDay]
   );
-  // TODO: make the filter to search events
+  const [filter, setFilter] = useState('');
+  const filtered = useMemo(
+    () => FilterData(data[dayIndex], filter),
+    [data, dayIndex, filter]
+  );
 
   return (
     <>
@@ -52,10 +70,12 @@ const EventsSeminars = () => {
             type="text"
             className="block w-full max-w-7xl p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Busca tu evento, ponente..."
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
           />
         </div>
         <Timeline className="mt-2 pt-2">
-          {data[dayIndex].hours.map((event) => (
+          {filtered.map((event) => (
             <Timeline.Item key={event.title}>
               <Timeline.Point />
               <Timeline.Content>
