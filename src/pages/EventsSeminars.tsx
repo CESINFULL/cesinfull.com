@@ -52,55 +52,67 @@ const EventsSeminars = () => {
   );
 
   return (
-    <>
-      <div className="my-3 mx-3">
-        <h1 className="text-4xl font-bold py-6 dark:text-white">
-          Calendario y eventos
-        </h1>
-        {/* Write a little description */}
-        <div className="flex gap-4 flex-col md:flex-row">
-          <Select className="w-28" onChange={(e) => selectDay(e.target.value)}>
-            {data.map((calendar) => (
-              <option key={calendar.day} value={calendar.day}>
-                Día {calendar.day}
-              </option>
-            ))}
-          </Select>
-          <input
-            type="text"
-            className="block w-full max-w-7xl p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Busca tu evento, ponente..."
-            value={filter}
-            onChange={(e) => setFilter(e.target.value)}
-          />
-        </div>
-        <Timeline className="mt-2 pt-2">
-          {filtered.map((event) => (
-            <Timeline.Item key={event.title}>
-              <Timeline.Point />
-              <Timeline.Content>
-                <Timeline.Time>
-                  {FormatDate(event.hour)} ({event.duration})
-                </Timeline.Time>
-                <Timeline.Title>{event.title}</Timeline.Title>
-                <Timeline.Body>{event.description}</Timeline.Body>
-                <div className="flex items-center gap-2">
-                  <small className="text-sm font-bold text-gray-500 dark:text-gray-400">
-                    {event.speaker}
-                  </small>
-                  <Avatar
-                    className="object-cover"
-                    img={event.speakerAvatar}
-                    rounded
-                    bordered
-                  />
-                </div>
-              </Timeline.Content>
-            </Timeline.Item>
+    <div className="my-3 mx-6">
+      <h1 className="text-4xl font-bold py-6 dark:text-white">
+        Calendario y eventos
+      </h1>
+      <p className="mb-6 text-base font-normal text-gray-500 dark:text-gray-400">
+        En esta página se ofrece un listado de los diferentes eventos del cesinf
+        e infomación sobre los mismos.
+        <br /> Todos estos eventos se dessarollaran en el <b>Aula Magna</b> de
+        la
+        <a
+          href="https://maps.app.goo.gl/j4DUbaETev2Gdf3S8"
+          className="font-medium ml-1 text-blue-600 dark:text-blue-500 hover:underline"
+        >
+          Facultad de Física y Matemáticas
+        </a>
+        .
+      </p>
+      <div className="flex gap-4 flex-col md:flex-row">
+        <Select className="w-28" onChange={(e) => selectDay(e.target.value)}>
+          {data.map((calendar) => (
+            <option key={calendar.day} value={calendar.day}>
+              Día {calendar.day}
+            </option>
           ))}
-        </Timeline>
+        </Select>
+        <input
+          type="text"
+          className="block w-full max-w-5xl p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Busca tu evento, ponente..."
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        />
       </div>
-    </>
+      <Timeline className="mt-2 pt-2">
+        {filtered.map((event) => (
+          <Timeline.Item key={event.title}>
+            <Timeline.Point />
+            <Timeline.Content>
+              <Timeline.Time>
+                {FormatDate(event.hour)} ({event.duration})
+              </Timeline.Time>
+              <Timeline.Title>{event.title}</Timeline.Title>
+              <Timeline.Body className="max-w-6xl">
+                {event.description}
+              </Timeline.Body>
+              <div className="flex items-center gap-2">
+                <small className="text-sm font-bold text-gray-500 dark:text-gray-400">
+                  {event.speaker}
+                </small>
+                <Avatar
+                  className="object-cover"
+                  img={event.speakerAvatar}
+                  rounded
+                  bordered
+                />
+              </div>
+            </Timeline.Content>
+          </Timeline.Item>
+        ))}
+      </Timeline>
+    </div>
   );
 };
 
