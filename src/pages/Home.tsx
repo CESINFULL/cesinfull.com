@@ -89,6 +89,20 @@ const Home = () => {
               width='200'
             />
           </div>
+          <div className='flex flex-col items-center text-center'>
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+            <img 
+              className='mt-4'
+              src='https://preview.redd.it/nhvy5bbqs8891.png?auto=webp&s=db37de29529eec90a72fdb5c28f380c7202765da' 
+              alt='Foto del evento' 
+              width='200'
+            />
+          </div>
         </div>
         <div className='mx-40 lg:flex lg:place-content-evenly items-center pb-8'>
           <div className='flex flex-col items-center text-center'>
