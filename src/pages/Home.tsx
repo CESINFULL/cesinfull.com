@@ -1,3 +1,5 @@
+import CustomNavbar from '../components/CustomNavbar';
+import Hero from '../components/Hero';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import astronaut from '../images/astronaut.svg';
@@ -8,6 +10,8 @@ import unkwown from '../images/unkwown_sponsor.png';
 
 const Home = () => {
   return (
+    <CustomNavbar />
+    <Hero />
     <div className="w-full bg-cesinf-blue">
       <div className="w-auto h-[166px] left-0 top-0 absolute">
         <NavBar />
