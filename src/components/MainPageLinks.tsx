@@ -3,7 +3,7 @@ import unknown from '../images/unkwown_sponsor.png';
 export default function MainPageLinks() {
   return (
     <>
-      <div className='mx-40 lg:flex lg:place-content-evenly items-center pb-8'>
+      <div className='pb-14 lg:flex lg:place-content-evenly items-center'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='text-5xl'>HORARIO</h2>
           <img 

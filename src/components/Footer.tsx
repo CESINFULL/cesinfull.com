@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <section className="bg-slate-800">
-        <div className="mx-auto space-y-8 overflow-hidden">
-            <div className="flex justify-center mt-8 space-x-6">
+        <div className="mx-auto space-y-3 overflow-hidden">
+            <div className="flex justify-center mt-6 space-x-6">
                 <a href="https://twitter.com/CESINFULL" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">X</span>
                     <svg 
@@ -60,13 +60,13 @@ const Footer = () => {
                   </svg>
                 </a>
             </div>
-            <div className="flex flex-col items-center space-y-4">
+            <div className="flex flex-col items-center space-y-3">
               <h1 className="text-2xl font-bold text-white">25 y 26 de Enero de 2024</h1>
               <p className="text-gray-400 text-lg">Aula Magna Sección de Física y Matemáticas</p>
             </div>
-            <h1 className="text-6xl font-bold text-white text-center">CESINF IX</h1>
-            <div className="flex flex-col items-center pb-8">
-              <a href="mailto:cesinfull@ull.edu.es" className="text-gray-400 text-lg">cesinfull@ull.edu.es</a>
+            <h1 className="text-4xl font-bold text-white text-center">CESINF IX</h1>
+            <div className="flex flex-col items-center pb-4">
+              <a href="mailto:cesinfull@ull.edu.es" className="text-gray-400 hover:underline">cesinfull@ull.edu.es</a>
             </div>
         </div>
     </section>
