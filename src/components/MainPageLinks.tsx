@@ -1,4 +1,4 @@
-import unknown from '../images/unkwown_sponsor.png';
+import unknown from '../images/unkwown_sponsor.webp';
 
 export default function MainPageLinks() {
   return (

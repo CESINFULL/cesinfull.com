@@ -1,6 +1,6 @@
-import event1 from '../images/event1.jpg';
-import event2 from '../images/event2.jpg';
-import event3 from '../images/event3.jpg';
+import event1 from '../images/event1.webp';
+import event2 from '../images/event2.webp';
+import event3 from '../images/event3.webp';
 
 const WhoWeAre = () => {
   return (
