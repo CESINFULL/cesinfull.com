@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import MainPageLinks from '../components/MainPageLinks';
 import Sponsors from '../components/Sponsors';
 import WhoWeAre from '../components/WhoWeAre';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           <MainPageLinks />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
