@@ -1,4 +1,4 @@
-import unknown from '../images/unkwown_sponsor.webp';
+// import unknown from '../images/unkwown_sponsor.webp';
 import evento_img from '../images/3.webp';
 import taller_img from '../images/5.webp';
 import horario_img from '../images/4.webp';
