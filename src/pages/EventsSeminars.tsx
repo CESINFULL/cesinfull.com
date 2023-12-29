@@ -38,7 +38,9 @@ const FilterData = (data: CalendarI, filter: string): Event[] => {
     (hour) =>
       hour.description.toLowerCase().includes(filter) ||
       hour.speaker.toLowerCase().includes(filter) ||
-      hour.title.toLowerCase().includes(filter)
+      hour.title.toLowerCase().includes(filter) ||
+      hour.job.toLowerCase().includes(filter) ||
+      hour.enterprise.toLowerCase().includes(filter)
   );
 };
 
