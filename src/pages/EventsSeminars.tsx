@@ -9,6 +9,8 @@ interface Event {
   speakerAvatar: string; // url
   title: string;
   description: string;
+  job: string;
+  enterprise: string;
 }
 
 interface CalendarI {
@@ -52,7 +54,7 @@ const EventsSeminars = () => {
   );
 
   return (
-    <div className="my-3 mx-6">
+    <div className="py-3 px-6 dark:bg-gray-800 min-h-screen">
       <h1 className="text-4xl font-bold py-6 dark:text-white">
         Calendario y eventos
       </h1>
@@ -63,7 +65,7 @@ const EventsSeminars = () => {
         la
         <a
           href="https://maps.app.goo.gl/j4DUbaETev2Gdf3S8"
-          className="font-medium ml-1 text-blue-600 dark:text-blue-500 hover:underline"
+          className="font-bold ml-1 text-blue-600 dark:text-blue-500 hover:underline"
         >
           Facultad de Física y Matemáticas
         </a>
@@ -87,27 +89,26 @@ const EventsSeminars = () => {
       </div>
       <Timeline className="mt-2 pt-2">
         {filtered.map((event) => (
-          <Timeline.Item key={event.title}>
+          <Timeline.Item key={event.title} className="max-w-6xl">
             <Timeline.Point />
             <Timeline.Content>
               <Timeline.Time>
                 {FormatDate(event.hour)} ({event.duration})
               </Timeline.Time>
               <Timeline.Title>{event.title}</Timeline.Title>
-              <Timeline.Body className="max-w-6xl">
-                {event.description}
-              </Timeline.Body>
-              <div className="flex items-center gap-2">
-                <small className="text-sm font-bold text-gray-500 dark:text-gray-400">
-                  {event.speaker}
-                </small>
-                <Avatar
-                  className="object-cover"
-                  img={event.speakerAvatar}
-                  rounded
-                  bordered
-                />
-              </div>
+              <Timeline.Body>{event.description}</Timeline.Body>
+              <Avatar
+                className="justify-start"
+                img={event.speakerAvatar}
+                rounded
+              >
+                <div className="space-y-1 font-medium dark:text-white">
+                  <p className="font-semibold">{event.speaker}</p>
+                  <small className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+                    {event.job} en {event.enterprise}
+                  </small>
+                </div>
+              </Avatar>
             </Timeline.Content>
           </Timeline.Item>
         ))}
