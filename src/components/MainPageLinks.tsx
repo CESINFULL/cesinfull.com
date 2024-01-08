@@ -5,37 +5,32 @@ import imgTalleres from '../images/home_link_talleres.webp';
 export default function MainPageLinks() {
   return (
     <>
-      <div className='pb-14 lg:flex lg:place-content-evenly items-center'>
-        <div className='flex flex-col items-center text-center'>
-          <h2 className='text-5xl'>HORARIO</h2>
-          <img 
-            className='lg:w-10/12 mt-2 mb-10'
+      <article className="pb-14 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-20">
+        <section>
+          <h3 className="text-4xl text-center font-bold pb-4">HORARIO</h3>
+          <img
+            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgHorario}
-            alt='Foto del horario' 
-            width='200'
+            alt="Foto del horario"
           />
-        </div>
-
-        <div className='flex flex-col items-center text-center'>
-          <h2 className='text-5xl'>EVENTOS</h2>
-          <img 
-            className='lg:w-10/12 mt-2 mb-10'
+        </section>
+        <section>
+          <h3 className="text-4xl text-center font-bold pb-4">EVENTOS</h3>
+          <img
+            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgEventos}
-            alt='Foto del evento' 
-            width='200'
+            alt="Foto del evento"
           />
-        </div>
-
-        <div className='flex flex-col items-center text-center'>
-          <h2 className='text-5xl'>TALLERES</h2>
-          <img 
-            className='lg:w-10/12 mt-2 mb-10'
+        </section>
+        <section className="lg:col-span-2">
+          <h3 className="text-4xl text-center font-bold pb-4">TALLERES</h3>
+          <img
+            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgTalleres}
-            alt='Foto del taller' 
-            width='200'
+            alt="Foto del taller"
           />
-        </div>
-      </div>
+        </section>
+      </article>
     </>
   );
 }
