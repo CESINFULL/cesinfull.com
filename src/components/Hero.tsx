@@ -8,7 +8,7 @@ export default function Hero() {
       <p className="text-2xl mb-2">25 y 26 de Enero</p>
       <p className="text-2xl">Aula Magna de Física y Matemáticas</p>
       <div className="inline-block mt-8">
-        <Button outline gradientDuoTone="purpleToBlue">
+        <Button outline gradientDuoTone="purpleToBlue" onClick={() => window.open("https://www.eventbrite.com/e/792436016457", "_blank")}>
           Compra tu entrada
         </Button>
       </div>
