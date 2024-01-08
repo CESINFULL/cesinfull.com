@@ -1,10 +1,11 @@
 import { Button, Navbar } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 import CesinfLogo from './svg/CesinfLogo';
 
 export default function CustomNavbar() {
   return (
     <Navbar fluid rounded className="fixed w-full bg-gray-800 z-10">
-      <Navbar.Brand href="/">
+      <Navbar.Brand as={Link} to="/">
         <CesinfLogo
           letterColor="#ffffff"
           circleColor="#ffffff"
@@ -15,12 +16,14 @@ export default function CustomNavbar() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button gradientDuoTone="purpleToBlue">Compra tu entrada</Button>
+        <Button gradientDuoTone="purpleToBlue" onClick={() => window.open("https://www.eventbrite.com/e/792436016457", "_blank")}>
+          Compra tu entrada
+        </Button>
         <Navbar.Toggle className="2xs:ml-3" />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="/" className="text-lg">Inicio</Navbar.Link>
-        <Navbar.Link href="/talleres-eventos" className="text-lg">Talleres y eventos</Navbar.Link>
+        <Navbar.Link as={Link} to="/" className="text-lg">Inicio</Navbar.Link>
+        <Navbar.Link as={Link} to="/talleres-eventos" className="text-lg">Talleres y eventos</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
