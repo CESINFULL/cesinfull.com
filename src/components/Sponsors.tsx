@@ -4,7 +4,7 @@ import ecovium from '../images/ecovium_sponsor.webp';
 export default function Sponsors() {
   return (
     <>
-      <h1 className="text-5xl text-center pb-2 font-bold">PATROCINADORES</h1>
+      <h3 className="text-[7vw] sm:text-5xl text-center pb-2 font-bold">PATROCINADORES</h3>
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-20 place-items-center pt-12 pb-32">
         <img
           className="max-w-[400px] max-h-[400px] rounded"
