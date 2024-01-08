@@ -6,8 +6,8 @@ const WhoWeAre = () => {
   return (
     <>
       <div className="text-center pt-10">
-        <h1 className="font-bold text-5xl pb-8">¿QUIÉNES SOMOS?</h1>
-        <p className="text-lg mx-10 lg:mx-40">
+        <h3 className="font-bold text-[7vw] sm:text-5xl pb-8">¿QUIÉNES SOMOS?</h3>
+        <p className="sm:text-lg mx-10 lg:mx-40">
           El Congreso de Estudiantes de Ingeniería Informática es un evento
           que se celebra anualmente en la Escuela Superior de Ingeniería y
           Tecnología de la Universidad de La Laguna, organizado por
