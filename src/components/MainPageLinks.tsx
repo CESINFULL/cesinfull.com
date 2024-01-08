@@ -1,7 +1,6 @@
-// import unknown from '../images/unkwown_sponsor.webp';
-import evento_img from '../images/3.webp';
-import taller_img from '../images/5.webp';
-import horario_img from '../images/4.webp';
+import imgEventos from '../images/home_link_eventos.webp';
+import imgHorario from '../images/home_link_horario.webp';
+import imgTalleres from '../images/home_link_talleres.webp';
 
 export default function MainPageLinks() {
   return (
@@ -11,7 +10,7 @@ export default function MainPageLinks() {
           <h2 className='text-5xl'>HORARIO</h2>
           <img 
             className='lg:w-10/12 mt-12'
-            src={horario_img}
+            src={imgHorario}
             alt='Foto del horario' 
             width='200'
           />
@@ -21,7 +20,7 @@ export default function MainPageLinks() {
           <h2 className='text-5xl'>EVENTOS</h2>
           <img 
             className='lg:w-10/12 mt-12'
-            src={evento_img}
+            src={imgEventos}
             alt='Foto del evento' 
             width='200'
           />
@@ -31,7 +30,7 @@ export default function MainPageLinks() {
           <h2 className='text-5xl'>TALLERES</h2>
           <img 
             className='lg:w-10/12 mt-12'
-            src={taller_img}
+            src={imgTalleres}
             alt='Foto del taller' 
             width='200'
           />
