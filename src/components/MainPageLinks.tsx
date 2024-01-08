@@ -5,11 +5,11 @@ import imgTalleres from '../images/home_link_talleres.webp';
 export default function MainPageLinks() {
   return (
     <>
-      <article className="pb-14 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-20">
+      <article className="pb-14 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 sm:gap-20">
         <section>
           <h3 className="text-4xl text-center font-bold pb-4">HORARIO</h3>
           <img
-            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgHorario}
             alt="Foto del horario"
           />
@@ -17,7 +17,7 @@ export default function MainPageLinks() {
         <section>
           <h3 className="text-4xl text-center font-bold pb-4">EVENTOS</h3>
           <img
-            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgEventos}
             alt="Foto del evento"
           />
@@ -25,7 +25,7 @@ export default function MainPageLinks() {
         <section className="lg:col-span-2">
           <h3 className="text-4xl text-center font-bold pb-4">TALLERES</h3>
           <img
-            className="max-w-[370px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
             src={imgTalleres}
             alt="Foto del taller"
           />
