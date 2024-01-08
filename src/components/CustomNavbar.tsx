@@ -23,7 +23,6 @@ export default function CustomNavbar() {
       </div>
       <Navbar.Collapse>
         <Navbar.Link as={Link} to="/" className="text-lg">Inicio</Navbar.Link>
-        <Navbar.Link as={Link} to="/talleres-eventos" className="text-lg">Talleres y eventos</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
