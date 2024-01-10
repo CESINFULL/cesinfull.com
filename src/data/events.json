@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "day": "25",
+    "events": [
+      {
+        "speaker": "Alberto Abreu Lindes",
+        "job": "Backend Developer & Junior Squal Lead",
+        "enterprise": "Advance Digital Experts",
+        "title": "Del 'No Puedes' al 'Puedo': De Fracaso Escolar a Squad Lead",
+        "description": "En esta charla, compartiré mi viaje personal de transformación y superación. A través de mi historia, desde enfrentar repetidos fracasos académicos en la ESO hasta encontrar mi verdadera pasión y convertirme en un desarrollador Backend y Squad Lead, espero inspirar a otros a encontrar su camino.",
+        "duration": "1h",
+        "hour": 1706178600000,
+        "speakerAvatar": "/alberto_abreu.webp"
+      },
+      {
+        "speaker": "Manuel Alejandro Bacallado López",
+        "job": "Software Engineer",
+        "enterprise": "PCG & AI",
+        "title": "La complejidad de hacer un videojuego simple",
+        "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
+        "duration": "1h",
+        "hour": 1706180400000,
+        "speakerAvatar": "/manuel_bacallado.webp"
+      },
+      {
+        "speaker": "Óscar Moreira Estévez",
+        "job": "Frontend Developer",
+        "enterprise": "Expero",
+        "title": "El trabajo de un programador/a más allá de la universidad",
+        "description": "¡Esta es la charla que me hubiese gustado que me dieran en la carrera!\nEn esta charla, vamos a hablar sobre como es el día a día del trabajo como programador. Desde cómo es pasar de la uni al trabajo hasta lo que hacemos en proyectos diarios. Te contaré cómo son los equipos y te daré algunos consejos buenos para cuando salgas de la carrera.",
+        "duration": "1h",
+        "hour": 1706184000000,
+        "speakerAvatar": "/oscar_moreira.webp"
+      },
+      {
+        "speaker": "Silvia Alayón Miranda",
+        "job": "Docente",
+        "enterprise": "ULL",
+        "title": "Inteligencia Artificial en Medicina",
+        "description": "En esta charla se explicará a nivel divulgativo cómo son los sistemas más avanzados de Inteligencia Artificial para procesar imágenes, y cómo estos sistemas están revolucionando la Medicina. Además de ver las ventajas que tienen, analizaremos las desventajas y los problemas que conllevan en un campo tan delicado como es el de la Medicina.",
+        "duration": "1h",
+        "hour": 1706185800000,
+        "speakerAvatar": "/silvia_alayon.webp"
+      },
+      {
+        "speaker": "David Durey Chief",
+        "job": "Product Officer",
+        "enterprise": "Frogtek",
+        "title": "Cómo afrontar una prueba técnica de un proceso de selección",
+        "description": "Hace 2 años di una charla en el CESINF sobre cómo afrontar entrevistas laborales en empresas informáticas, y muchas de las preguntas que me hicieron al final y en los pasillos de forma informal fueron específicamente sobre las temidas pruebas técnicas. Podría compartir 20 años de experiencia como entrevistador y entrevistado en la realización de pruebas técnicas.",
+        "duration": "1h",
+        "hour": 1706196600000,
+        "speakerAvatar": "/david_durey.webp"
+      },
+      {
+        "speaker": "Lucía Cabrera Garabote",
+        "job": "Estudiante",
+        "enterprise": "ULL",
+        "title": "De oca a oca y comunidad que me toca",
+        "description": "Una charla sobre las comunidades y eventos tech más conocidos y divertidos de España que busca motivar a la gente a participar en ellos.",
+        "duration": "1h",
+        "hour": 1706200200000,
+        "speakerAvatar": "/lucia_cabrera.webp"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "day": "26",
+    "events": [
+      {
+        "speaker": "Alberto Cruz Figuero",
+        "job": "Diseñador Jefe / Lead Frontend",
+        "enterprise": "Inxpira Estudio",
+        "title": "La revolución de las IAs en la generación de medios audiovisuales",
+        "description": "Un repaso a la revolución en el sector digital gracias a las IAs.\nRepaso de las tendencias, su evolución y demostración en vivo.",
+        "duration": "1h",
+        "hour": 1706263200000,
+        "speakerAvatar": "/alberto_cruz.webp"
+      },
+      {
+        "speaker": "Pablo Pastor Martin",
+        "job": "Software Engineer II",
+        "enterprise": "Spotify",
+        "title": "Monorepos, lo bueno y lo malo",
+        "description": "El concepto de monorepo ha venido ganando popularidad en los últimos años debido a su capacidad de simplificar muchos procesos de mantenimiento y gestión de grandes proyectos. Además, nuevas herramientas pueden permitir solventar algunos de sus problemas históricos. En esta charla ahondaremos en las virtudes y flaquezas de los monorepos y veremos dónde y por qué tiene sentido usarlos.",
+        "duration": "1h",
+        "hour": 1706265000000,
+        "speakerAvatar": "/pablo_pastor.webp"
+      },
+      {
+        "speaker": "Daniel Alejandro Álvarez Casablanca",
+        "job": "Estudiante / Desarrollador",
+        "enterprise": "Mancos.es",
+        "title": "Mundos Virtuales y Creatividad en Código: Explorando FiveM en GTA",
+        "description": "En esta charla, exploraremos el fascinante mundo de FiveM, una plataforma modificada para GTA que permite a los jugadores y programadores crear y disfrutar de experiencias únicas en un entorno virtual. Me centraré en los diversos proyectos en los que he trabajado y estoy actualmente involucrado, destacando cómo FiveM abre un abanico de posibilidades para la programación en múltiples áreas como full stack, devops, ciberseguridad y desarrollo en general.\nResaltaré cómo, a través de proyectos como Tenderete City y otros, he utilizado FiveM no solo para entretener, sino también para innovar y experimentar con nuevas tecnologías. Además, compartiré mi experiencia en la organización de eventos y charlas previas relacionadas con FiveM, subrayando la importancia de la comunidad en el desarrollo y la evolución de este tipo de plataformas.\nMi objetivo es inspirar y mostrar cómo FiveM puede ser un terreno fértil para la creatividad, la innovación tecnológica y la formación de comunidades virtuales. La charla será una oportunidad para que los asistentes descubran cómo pueden aplicar sus habilidades y pasiones en el mundo de la programación y la tecnología para crear experiencias virtuales sorprendentes y significativas.",
+        "duration": "1h",
+        "hour": 1706266800000,
+        "speakerAvatar": "/daniel_alejandro.webp"
+      },
+      {
+        "speaker": "Elias Barba Moral",
+        "job": "Data Scientist",
+        "enterprise": "Lantek",
+        "title": "¿Qué necesito para trabajar en IA?",
+        "description": "IA, ciberseguridad, arquitectura, camarero,... las salidas laborales de la carrera informática son ilimitadas y crecen cada día. Es comprensible que ante una variedad de opciones tan grande sea difícil decidir a donde quiero enfocar mis estudios y mi vida laboral. En esta charla les voy a contar cuales creo que son las características que debe tener cualquier persona que quiera trabajar en IA; como yo las incumplo todas, y a pesar de ello he conseguido trabajo en ello.",
+        "duration": "1h",
+        "hour": 1706270400000,
+        "speakerAvatar": "/elias_barba.webp"
+      },
+      {
+        "speaker": "Viren Sajju Dhanwani Dhanwani",
+        "job": "Backend Developer",
+        "enterprise": "Acid Tango",
+        "title": "De lo Técnico a lo Tangible: Estrategias para Comunicar con Claridad",
+        "description": "En el mundo laboral es habitual comunicarse con personas de distintas áreas a las que hay que explicar decisiones técnicas, pero de una manera clara y sin entrar en tecnicismos propios del desarrollo. En esta charla pretendo dar una serie de estrategias que uso diariamente para intentar simplificar conceptos complejos.",
+        "duration": "1h",
+        "hour": 1706272200000,
+        "speakerAvatar": "/viren_dhanwani.webp"
+      },
+      {
+        "speaker": "Luis Merino Ulizarna",
+        "job": "Software Engineer",
+        "enterprise": "Autentia",
+        "title": "Atención hospitalarIA del futuro",
+        "description": "Conoce las nuevas técnicas de Deep Learning y NLP para mejorar la asistencia sanitaria en los hospitales e investigación científica.\nEn esta charla introductoria, veremos herramientas que se usan en el mundo de la IA aplicada a la salud, como reconocimiento de imágenes de rayos X o de manchas en la piel con potencial cancerígeno que usan técnicas de Computer Vision o la automatización de informes médicos con técnicas de procesamiento de lenguaje natural.\nTambién veremos ejemplos reales de Google DeepMind sobre cómo están a la vanguardia de este sector. Aportan modelos como AlphaFold, para la predicción de la estructura 3D de las proteínas o Med-PaLM 2, la IA conversacional de Google especialmente entrenada en el ámbito médico.\nY lo mejor es que tú puedes probarlo y en esta charla verás que con Python todo es más fácil!",
+        "duration": "1h",
+        "hour": 1706274000000,
+        "speakerAvatar": "/luis_merino.webp"
+      },
+      {
+        "speaker": "Jorge Aguiar Martin",
+        "job": "Software Developer",
+        "enterprise": "Lean Mind",
+        "title": "Mundo Laboral: Lo que pides vs lo que te llega",
+        "description": "Compararemos expectativas del mercado laboral con la realidad existente hoy día (basado en mi experiencia obviamente) y arrojaremos luz sobre el día a día en el desarrollo del software.",
+        "duration": "1h",
+        "hour": 1706283000000,
+        "speakerAvatar": "/jorge_aguiar.webp"
+      },
+      {
+        "speaker": "Juan Aday Siverio González",
+        "job": "Estudiante",
+        "enterprise": "ULL",
+        "title": "WhyGod? - Así dirigí y programé un videojuego",
+        "description": "WhyGod? es un videojuego 2D creado por mi estudio de videojuegos Twisted Drago y programado únicamente por mí.\nEl videojuego salé en diciembre de 2023 por primera vez en Steam y ya ha sido presentado en la TGG, en el Instagram del estudio @twisteddragostudios. Donde fue bastante reconocido.",
+        "duration": "1h",
+        "hour": 1706284800000,
+        "speakerAvatar": "/juan_siverio.webp"
+      },
+      {
+        "speaker": "Pablo Pais Ficret",
+        "job": "Estudiante",
+        "enterprise": "ULL",
+        "title": "VMS - El turismo para todos",
+        "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
+        "duration": "1h",
+        "hour": 1706286600000,
+        "speakerAvatar": "/pablo_pais.webp"
+      }
+    ]
+  }
+]
