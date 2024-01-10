@@ -22,7 +22,12 @@ export default function CustomNavbar() {
         <Navbar.Toggle className="2xs:ml-3" />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link as={Link} to="/" className="text-lg">Inicio</Navbar.Link>
+        <Navbar.Link as={Link} to="/" className="text-lg">
+          Inicio
+        </Navbar.Link>
+        <Navbar.Link as={Link} to="/talleres-eventos" className="text-lg">
+          Talleres y Eventos
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
