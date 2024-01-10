@@ -1,9 +1,10 @@
-import React from 'react';
+import { StrictMode, lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './tailwind.css';
 import Home from './pages/Home';
-import EventsSeminars from './pages/EventsSeminars';
+
+const Events = lazy(() => import('./pages/EventsSeminars'));
 
 const router = createBrowserRouter([
   {
@@ -12,12 +13,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/talleres-eventos',
-    element: <EventsSeminars />,
+    element: (
+      <Suspense>
+        <Events />
+      </Suspense>
+    ),
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>
 );

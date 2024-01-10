@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import fb from 'flowbite/plugin';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
   content: [
@@ -25,6 +26,10 @@ export default {
           },
         },
       },
+    },
+    screens: {
+      '2xs': '320px',
+      ...defaultTheme.screens,
     },
   },
   plugins: [fb],

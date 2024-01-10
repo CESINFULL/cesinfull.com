@@ -60,11 +60,11 @@ const Footer = () => {
                   </svg>
                 </a>
             </div>
-            <div className="flex flex-col items-center space-y-3">
-              <h1 className="text-2xl font-bold text-white">25 y 26 de Enero de 2024</h1>
-              <p className="text-gray-400 text-lg">Aula Magna Sección de Física y Matemáticas</p>
+            <div className="flex flex-col items-center space-y-3 px-5">
+              <p className="text-lg sm:text-2xl font-bold text-white">25 y 26 de Enero de 2024</p>
+              <p className="text-gray-400 sm:text-lg text-center">Aula Magna Sección de Física y Matemáticas</p>
             </div>
-            <h1 className="text-4xl font-bold text-white text-center">CESINF IX</h1>
+            <p className="text-4xl font-bold text-white text-center">CESINF IX</p>
             <div className="flex flex-col items-center pb-4">
               <a href="mailto:cesinfull@ull.edu.es" className="text-gray-400 hover:underline">cesinfull@ull.edu.es</a>
             </div>
