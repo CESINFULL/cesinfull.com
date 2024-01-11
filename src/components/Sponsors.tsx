@@ -8,16 +8,20 @@ export default function Sponsors() {
         PATROCINADORES
       </h3>
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-20 place-items-center pb-24">
-        <img
-          className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] rounded"
-          src={ecovium}
-          alt="Foto del evento"
-        />
-        <img
-          className="p-2 sm:p-0 sm:max-w-[400px] sm:max-h-[300px]"
-          src={lean_mind}
-          alt="Foto del evento"
-        />
+        <a href="https://ecovium.com/en/">
+          <img
+            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] rounded"
+            src={ecovium}
+            alt="Foto del evento"
+          />
+        </a>
+        <a href="https://leanmind.es/es/">
+          <img
+            className="p-2 sm:p-0 sm:max-w-[400px] sm:max-h-[300px]"
+            src={lean_mind}
+            alt="Foto del evento"
+          />
+        </a>
       </section>
     </>
   );
