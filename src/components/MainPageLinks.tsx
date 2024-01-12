@@ -5,31 +5,40 @@ import imgTalleres from '../images/home_link_talleres.webp';
 export default function MainPageLinks() {
   return (
     <>
-      <article className="pb-14 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 sm:gap-20">
-        <section>
-          <h3 className="text-4xl text-center font-bold pb-4">HORARIO</h3>
+      <article className="pb-14 flex flex-col items-center place-content-evenly lg:flex-row gap-6">
+        <a
+          href="/talleres-eventos"
+          className="hover:underline text-4xl text-center font-bold"
+        >
+          HORARIO
           <img
-            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="mt-4 max-h-64 my-5 rounded"
             src={imgHorario}
             alt="Foto del horario"
           />
-        </section>
-        <section>
-          <h3 className="text-4xl text-center font-bold pb-4">EVENTOS</h3>
+        </a>
+        <a
+          href="/talleres-eventos"
+          className="hover:underline text-4xl text-center font-bold"
+        >
+          EVENTOS
           <img
-            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="mt-4 max-h-64 my-5 rounded"
             src={imgEventos}
             alt="Foto del evento"
           />
-        </section>
-        <section className="lg:col-span-2">
-          <h3 className="text-4xl text-center font-bold pb-4">TALLERES</h3>
+        </a>
+        <a
+          href="/talleres-eventos"
+          className="hover:underline text-4xl text-center font-bold"
+        >
+          TALLERES
           <img
-            className="p-2 sm:p-0 sm:max-w-[400px] max-h-[300px] lg:max-w-[500px] lg:max-h-[400px] rounded"
+            className="mt-4 max-h-64 my-5 rounded"
             src={imgTalleres}
             alt="Foto del taller"
           />
-        </section>
+        </a>
       </article>
     </>
   );
