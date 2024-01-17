@@ -4,7 +4,6 @@ import { Select, Avatar, Timeline } from 'flowbite-react';
 export interface Event {
   speaker: string;
   hour: number;
-  duration: string;
   speakerAvatar: string; // url
   title: string;
   description: string;
