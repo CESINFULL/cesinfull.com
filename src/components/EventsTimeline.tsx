@@ -4,7 +4,6 @@ import { Select, Avatar, Timeline } from 'flowbite-react';
 export interface Event {
   speaker: string;
   hour: number;
-  duration: string;
   speakerAvatar: string; // url
   title: string;
   description: string;
@@ -81,7 +80,7 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
             <Timeline.Point />
             <Timeline.Content>
               <Timeline.Time>
-                {FormatDate(event.hour)} ({event.duration})
+                {FormatDate(event.hour)}
               </Timeline.Time>
               <Timeline.Title>{event.title}</Timeline.Title>
               <Timeline.Body className="text-pretty">
