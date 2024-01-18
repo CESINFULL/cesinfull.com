@@ -94,7 +94,8 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
                 <div className="space-y-1 font-medium dark:text-white">
                   <p className="font-semibold">{event.speaker}</p>
                   <small className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                    {event.job} en {event.enterprise}
+                    {event.job}
+                    {event.enterprise && ` en ${event.enterprise}`}
                   </small>
                 </div>
               </Avatar>
