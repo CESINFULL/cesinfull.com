@@ -59,7 +59,7 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
   return (
     <>
       <div className="flex gap-4 flex-col md:flex-row">
-        <Select className="w-28" onChange={(e) => selectDay(e.target.value)}>
+        <Select className="w-40" onChange={(e) => selectDay(e.target.value)}>
           {data.map((calendar) => (
             <option key={calendar.day} value={calendar.day}>
               Día {calendar.day}
@@ -79,9 +79,7 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
           <Timeline.Item key={event.title} className="max-w-6xl mt-2">
             <Timeline.Point />
             <Timeline.Content>
-              <Timeline.Time>
-                {FormatDate(event.hour)}
-              </Timeline.Time>
+              <Timeline.Time>{FormatDate(event.hour)}</Timeline.Time>
               <Timeline.Title>{event.title}</Timeline.Title>
               <Timeline.Body className="text-pretty">
                 {event.description}

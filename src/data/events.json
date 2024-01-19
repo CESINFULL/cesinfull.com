@@ -4,6 +4,15 @@
     "day": "25",
     "events": [
       {
+        "speaker": "Jimena",
+        "job": "Presidenta",
+        "enterprise": "Python España",
+        "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
+        "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
+        "hour": 1706176800000,
+        "speakerAvatar": "/jimena.webp"
+      },
+      {
         "speaker": "Alberto Abreu Lindes",
         "job": "Backend Developer & Junior Squal Lead",
         "enterprise": "Advance Digital Experts",
@@ -40,6 +49,15 @@
         "speakerAvatar": "/silvia_alayon.webp"
       },
       {
+        "speaker": "Yodra",
+        "job": "Software Engineer",
+        "enterprise": "Science4Tech",
+        "title": "Solo se clavar clavos",
+        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
+        "hour": 1706187600000,
+        "speakerAvatar": "/yodra.webp"
+      },
+      {
         "speaker": "David Durey Chief",
         "job": "Product Officer",
         "enterprise": "Frogtek",
@@ -47,6 +65,15 @@
         "description": "Hace 2 años di una charla en el CESINF sobre cómo afrontar entrevistas laborales en empresas informáticas, y muchas de las preguntas que me hicieron al final y en los pasillos de forma informal fueron específicamente sobre las temidas pruebas técnicas. Podría compartir 20 años de experiencia como entrevistador y entrevistado en la realización de pruebas técnicas.",
         "hour": 1706196600000,
         "speakerAvatar": "/david_durey.webp"
+      },
+      {
+        "speaker": "Andreina",
+        "job": "Agile Coach",
+        "enterprise": "TecnoFor",
+        "title": "Kanban: ¿Cómo organizar tu trabajo?",
+        "description": "Kanban es una metodología de gestión que se basa en la visualización del flujo de trabajo, la limitación del trabajo en curso y la mejora continua. Se puede utilizar para organizar el trabajo de forma individual o en equipo, y es una herramienta eficaz para mejorar la productividad, la eficiencia y la transparencia.",
+        "hour": 1706198400000,
+        "speakerAvatar": "/andreina.webp"
       },
       {
         "speaker": "Lucía Cabrera Garabote",
