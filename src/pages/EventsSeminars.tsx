@@ -16,7 +16,7 @@ const EventsSeminars = () => {
         <p className="mb-6 text-base font-normal text-gray-500 dark:text-gray-400">
           En esta página se ofrece un listado de los diferentes eventos del
           cesinf e infomación sobre los mismos.
-          <br /> Todos estos eventos se dessarollaran en el <b>Aula Magna</b> de
+          <br /> Todos estos eventos se desarollarán en el <b>Aula Magna</b> de
           la
           <a
             href="https://maps.app.goo.gl/j4DUbaETev2Gdf3S8"
