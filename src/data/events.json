@@ -49,6 +49,15 @@
         "speakerAvatar": "/silvia_alayon.webp"
       },
       {
+        "speaker": "Yodra",
+        "job": "Software Engineer",
+        "enterprise": "Science4Tech",
+        "title": "Solo se clavar clavos",
+        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
+        "hour": 1706187600000,
+        "speakerAvatar": "/yodra.webp"
+      },
+      {
         "speaker": "David Durey Chief",
         "job": "Product Officer",
         "enterprise": "Frogtek",
