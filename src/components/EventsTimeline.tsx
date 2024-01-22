@@ -24,6 +24,7 @@ const FormatDate = (date: number): string => {
     hour: 'numeric',
     minute: 'numeric',
     month: 'short',
+    timeZone: 'UTC',
   }).format(date);
 };
 
