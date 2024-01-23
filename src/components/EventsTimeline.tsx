@@ -1,5 +1,6 @@
 import { FC, useMemo, useState } from 'react';
-import { Select, Avatar, Timeline } from 'flowbite-react';
+import { Select, Timeline } from 'flowbite-react';
+import Avatar from './Avatar';
 
 export interface Event {
   speaker: string;
@@ -23,6 +24,7 @@ const FormatDate = (date: number): string => {
     hour: 'numeric',
     minute: 'numeric',
     month: 'short',
+    timeZone: 'UTC',
   }).format(date);
 };
 
@@ -85,18 +87,11 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
                 {event.description}
               </Timeline.Body>
               <Avatar
-                className="justify-start"
                 img={event.speakerAvatar}
-                rounded
-              >
-                <div className="space-y-1 font-medium dark:text-white">
-                  <p className="font-semibold">{event.speaker}</p>
-                  <small className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                    {event.job}
-                    {event.enterprise && ` en ${event.enterprise}`}
-                  </small>
-                </div>
-              </Avatar>
+                speaker={event.speaker}
+                enterprise={event.enterprise}
+                job={event.job}
+              ></Avatar>
             </Timeline.Content>
           </Timeline.Item>
         ))}
