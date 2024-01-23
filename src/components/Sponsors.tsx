@@ -1,6 +1,6 @@
 import lean_mind from '../images/lean-mind_sponsor.webp';
 import ecovium from '../images/ecovium_sponsor.webp';
-import catedraCaja from '../images/catedra-caja-ull.webp';
+import catedraCaja from '../images/catedra-bob.webp';
 import catedraSeguridad from '../images/catedra-ciberseguridad-ull.webp';
 import catedraEdosoft from '../images/catedra-edosoft-ull.webp';
 import gdgTenerife from '../images/gdg-tenerife.webp';
@@ -52,14 +52,14 @@ export default function Sponsors() {
         </a>
         <a href="https://gdg.community.dev/gdg-tenerife/">
           <img
-            className="p-2 sm:p-0 sm:max-w-[400px] w-[350px] sm:max-h-[300px]"
+            className="p-2 sm:p-0 sm:max-w-[400px] w-[350px] sm:max-h-[300px] bg-white rounded"
             src={gdgTenerife}
             alt=""
           />
         </a>
         <a href="https://www.ull.es/centros/escuela-politecnica-superior-de-ingenieria/">
           <img
-            className="p-2 sm:p-0 sm:max-w-[400px] w-[350px] sm:max-h-[300px]"
+            className="p-2 sm:p-0 sm:max-w-[400px] w-[350px] sm:max-h-[300px] bg-white rounded"
             src={politecnica}
             alt=""
           />
