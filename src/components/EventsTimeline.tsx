@@ -2,13 +2,13 @@ import { FC, useMemo, useState } from 'react';
 import { Select, Avatar, Timeline } from 'flowbite-react';
 
 export interface Event {
-  speaker: string;
+  speaker?: string;
   hour: number;
-  speakerAvatar: string; // url
+  speakerAvatar?: string; // url
   title: string;
   description: string;
-  job: string;
-  enterprise: string;
+  job?: string;
+  enterprise?: string;
 }
 
 export interface EventsI {
@@ -31,12 +31,12 @@ const FilterData = (data: EventsI, filter: string): Event[] => {
   filter = filter.toLowerCase();
 
   return data.events.filter(
-    (hour) =>
-      hour.description.toLowerCase().includes(filter) ||
-      hour.speaker.toLowerCase().includes(filter) ||
-      hour.title.toLowerCase().includes(filter) ||
-      hour.job.toLowerCase().includes(filter) ||
-      hour.enterprise.toLowerCase().includes(filter)
+    ({ description, speaker, title, job, enterprise }) =>
+      description.toLowerCase().includes(filter) ||
+      speaker?.toLowerCase().includes(filter) ||
+      title.toLowerCase().includes(filter) ||
+      job?.toLowerCase().includes(filter) ||
+      enterprise?.toLowerCase().includes(filter)
   );
 };
 
@@ -84,19 +84,21 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
               <Timeline.Body className="text-pretty">
                 {event.description}
               </Timeline.Body>
-              <Avatar
-                className="justify-start"
-                img={event.speakerAvatar}
-                rounded
-              >
-                <div className="space-y-1 font-medium dark:text-white">
-                  <p className="font-semibold">{event.speaker}</p>
-                  <small className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-                    {event.job}
-                    {event.enterprise && ` en ${event.enterprise}`}
-                  </small>
-                </div>
-              </Avatar>
+              {event.speaker && (
+                <Avatar
+                  className="justify-start"
+                  img={event.speakerAvatar}
+                  rounded
+                >
+                  <div className="space-y-1 font-medium dark:text-white">
+                    <p className="font-semibold">{event.speaker}</p>
+                    <small className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+                      {event.job}
+                      {event.enterprise && ` en ${event.enterprise}`}
+                    </small>
+                  </div>
+                </Avatar>
+              )}
             </Timeline.Content>
           </Timeline.Item>
         ))}

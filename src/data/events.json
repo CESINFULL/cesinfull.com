@@ -4,13 +4,13 @@
     "day": "25",
     "events": [
       {
-        "speaker": "Jimena",
-        "job": "Presidenta",
-        "enterprise": "Python España",
-        "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
-        "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
+        "speaker": "Yodra",
+        "job": "Software Engineer",
+        "enterprise": "Science4Tech",
+        "title": "Solo se clavar clavos",
+        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
         "hour": 1706176800000,
-        "speakerAvatar": "/jimena.webp"
+        "speakerAvatar": "/yodra.webp"
       },
       {
         "speaker": "Alberto Abreu Lindes",
@@ -22,13 +22,13 @@
         "speakerAvatar": "/alberto_abreu.webp"
       },
       {
-        "speaker": "Manuel Alejandro Bacallado López",
-        "job": "Software Engineer",
-        "enterprise": "PCG & AI",
-        "title": "La complejidad de hacer un videojuego simple",
-        "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
+        "speaker": "Pablo Pais Ficret",
+        "job": "Estudiante",
+        "enterprise": "ULL",
+        "title": "VMS - El turismo para todos",
+        "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
         "hour": 1706180400000,
-        "speakerAvatar": "/manuel_bacallado.webp"
+        "speakerAvatar": "/pablo_pais.webp"
       },
       {
         "speaker": "Óscar Moreira Estévez",
@@ -49,13 +49,13 @@
         "speakerAvatar": "/silvia_alayon.webp"
       },
       {
-        "speaker": "Yodra",
-        "job": "Software Engineer",
-        "enterprise": "Science4Tech",
-        "title": "Solo se clavar clavos",
-        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
+        "speaker": "Jimena",
+        "job": "Presidenta",
+        "enterprise": "Python España",
+        "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
+        "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
         "hour": 1706187600000,
-        "speakerAvatar": "/yodra.webp"
+        "speakerAvatar": "/jimena.webp"
       },
       {
         "speaker": "David Durey Chief",
@@ -83,6 +83,11 @@
         "description": "Una charla sobre las comunidades y eventos tech más conocidos y divertidos de España que busca motivar a la gente a participar en ellos.",
         "hour": 1706200200000,
         "speakerAvatar": "/lucia_cabrera.webp"
+      },
+      {
+        "title": "Las comunidades tech en Canarias",
+        "description": "Charla con representantes y referentes de comunidades tech en canarias y España para analizar cómo han evolucionado estos años, cuánta factura les ha pasado la pandemia y qué planes hay a futuro.",
+        "hour": 1706203800000
       }
     ]
   },
@@ -163,13 +168,18 @@
         "speakerAvatar": "/juan_siverio.webp"
       },
       {
-        "speaker": "Pablo Pais Ficret",
-        "job": "Estudiante",
-        "enterprise": "ULL",
-        "title": "VMS - El turismo para todos",
-        "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
+        "speaker": "Manuel Alejandro Bacallado López",
+        "job": "Software Engineer",
+        "enterprise": "PCG & AI",
+        "title": "La complejidad de hacer un videojuego simple",
+        "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
         "hour": 1706286600000,
-        "speakerAvatar": "/pablo_pais.webp"
+        "speakerAvatar": "/manuel_bacallado.webp"
+      },
+      {
+        "title": "El Ágora, charla con antiguos alumnos",
+        "description": "¿Y a dónde voy cuando acabe la carrera? ¿Puedo llegar a crecer como profesional? ¿Tendré la capacidad para trabajar fuera de España? o ¿Seré capaz de formar mi propia empresa? Son dudas habituales entre estudiantes de ingeniería informática y que los participantes de esta mesa redonda han sido capaz de resolver positivamente. En el ágora se pretende resolver cualquier pregunta sobre el oficio y conocer a profesionales de todos los campos  de la informática.",
+        "hour": 1706290200000
       }
     ]
   }
