@@ -4,16 +4,18 @@
     "day": "25",
     "events": [
       {
-        "speaker": "Jimena",
-        "job": "Presidenta",
-        "enterprise": "Python España",
-        "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
-        "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
+        "speaker": "Yodra",
+        "type": "talk",
+        "job": "Software Engineer",
+        "enterprise": "Science4Tech",
+        "title": "Solo se clavar clavos",
+        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
         "hour": 1706176800000,
-        "speakerAvatar": "/jimena.webp"
+        "speakerAvatar": "/yodra.webp"
       },
       {
         "speaker": "Alberto Abreu Lindes",
+        "type": "talk",
         "job": "Backend Developer & Junior Squal Lead",
         "enterprise": "Advance Digital Experts",
         "title": "Del 'No Puedes' al 'Puedo': De Fracaso Escolar a Squad Lead",
@@ -22,16 +24,18 @@
         "speakerAvatar": "/alberto_abreu.webp"
       },
       {
-        "speaker": "Manuel Alejandro Bacallado López",
-        "job": "Software Engineer",
-        "enterprise": "PCG & AI",
-        "title": "La complejidad de hacer un videojuego simple",
-        "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
+        "speaker": "Pablo Pais Ficret",
+        "type": "talk",
+        "job": "Estudiante",
+        "enterprise": "ULL",
+        "title": "VMS - El turismo para todos",
+        "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
         "hour": 1706180400000,
-        "speakerAvatar": "/manuel_bacallado.webp"
+        "speakerAvatar": "/pablo_pais.webp"
       },
       {
         "speaker": "Óscar Moreira Estévez",
+        "type": "talk",
         "job": "Frontend Developer",
         "enterprise": "",
         "title": "El trabajo de un programador/a más allá de la universidad",
@@ -41,6 +45,7 @@
       },
       {
         "speaker": "Silvia Alayón Miranda",
+        "type": "talk",
         "job": "Docente",
         "enterprise": "ULL",
         "title": "Inteligencia Artificial en Medicina",
@@ -49,16 +54,18 @@
         "speakerAvatar": "/silvia_alayon.webp"
       },
       {
-        "speaker": "Yodra",
-        "job": "Software Engineer",
-        "enterprise": "Science4Tech",
-        "title": "Solo se clavar clavos",
-        "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
+        "speaker": "Jimena",
+        "type": "talk",
+        "job": "Presidenta",
+        "enterprise": "Python España",
+        "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
+        "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
         "hour": 1706187600000,
-        "speakerAvatar": "/yodra.webp"
+        "speakerAvatar": "/jimena.webp"
       },
       {
         "speaker": "David Durey Chief",
+        "type": "talk",
         "job": "Product Officer",
         "enterprise": "Frogtek",
         "title": "Cómo afrontar una prueba técnica de un proceso de selección",
@@ -68,6 +75,7 @@
       },
       {
         "speaker": "Andreina",
+        "type": "talk",
         "job": "Agile Coach",
         "enterprise": "TecnoFor",
         "title": "Kanban: ¿Cómo organizar tu trabajo?",
@@ -77,12 +85,19 @@
       },
       {
         "speaker": "Lucía Cabrera Garabote",
+        "type": "talk",
         "job": "Estudiante",
         "enterprise": "ULL",
         "title": "De oca a oca y comunidad que me toca",
         "description": "Una charla sobre las comunidades y eventos tech más conocidos y divertidos de España que busca motivar a la gente a participar en ellos.",
         "hour": 1706200200000,
         "speakerAvatar": "/lucia_cabrera.webp"
+      },
+      {
+        "type": "round-table",
+        "title": "Las comunidades tech en Canarias",
+        "description": "Charla con representantes y referentes de comunidades tech en canarias y España para analizar cómo han evolucionado estos años, cuánta factura les ha pasado la pandemia y qué planes hay a futuro.",
+        "hour": 1706203800000
       }
     ]
   },
@@ -92,6 +107,7 @@
     "events": [
       {
         "speaker": "Alberto Cruz Figuero",
+        "type": "talk",
         "job": "Diseñador Jefe / Lead Frontend",
         "enterprise": "Inxpira Estudio",
         "title": "La revolución de las IAs en la generación de medios audiovisuales",
@@ -101,6 +117,7 @@
       },
       {
         "speaker": "Pablo Pastor Martin",
+        "type": "talk",
         "job": "Software Engineer II",
         "enterprise": "Spotify",
         "title": "Monorepos, lo bueno y lo malo",
@@ -110,6 +127,7 @@
       },
       {
         "speaker": "Daniel Alejandro Álvarez Casablanca",
+        "type": "talk",
         "job": "Estudiante / Desarrollador",
         "enterprise": "Mancos.es",
         "title": "Mundos Virtuales y Creatividad en Código: Explorando FiveM en GTA",
@@ -119,6 +137,7 @@
       },
       {
         "speaker": "Elias Barba Moral",
+        "type": "talk",
         "job": "Data Scientist",
         "enterprise": "Lantek",
         "title": "¿Qué necesito para trabajar en IA?",
@@ -128,6 +147,7 @@
       },
       {
         "speaker": "Viren Sajju Dhanwani Dhanwani",
+        "type": "talk",
         "job": "Backend Developer",
         "enterprise": "Acid Tango",
         "title": "De lo Técnico a lo Tangible: Estrategias para Comunicar con Claridad",
@@ -137,6 +157,7 @@
       },
       {
         "speaker": "Luis Merino Ulizarna",
+        "type": "talk",
         "job": "Software Engineer",
         "enterprise": "Autentia",
         "title": "Si no puedes con tu enemigo, únete a él. Aplicaciones de la IA a diversos ámbitos. ",
@@ -146,6 +167,7 @@
       },
       {
         "speaker": "Jorge Aguiar Martin",
+        "type": "talk",
         "job": "Software Developer",
         "enterprise": "Lean Mind",
         "title": "Mundo Laboral: Lo que pides vs lo que te llega",
@@ -155,6 +177,7 @@
       },
       {
         "speaker": "Juan Aday Siverio González",
+        "type": "talk",
         "job": "Estudiante",
         "enterprise": "ULL",
         "title": "WhyGod? - Así dirigí y programé un videojuego",
@@ -163,13 +186,20 @@
         "speakerAvatar": "/juan_siverio.webp"
       },
       {
-        "speaker": "Pablo Pais Ficret",
-        "job": "Estudiante",
-        "enterprise": "ULL",
-        "title": "VMS - El turismo para todos",
-        "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
+        "speaker": "Manuel Alejandro Bacallado López",
+        "type": "talk",
+        "job": "Software Engineer",
+        "enterprise": "PCG & AI",
+        "title": "La complejidad de hacer un videojuego simple",
+        "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
         "hour": 1706286600000,
-        "speakerAvatar": "/pablo_pais.webp"
+        "speakerAvatar": "/manuel_bacallado.webp"
+      },
+      {
+        "type": "round-table",
+        "title": "El Ágora, charla con antiguos alumnos",
+        "description": "¿Y a dónde voy cuando acabe la carrera? ¿Puedo llegar a crecer como profesional? ¿Tendré la capacidad para trabajar fuera de España? o ¿Seré capaz de formar mi propia empresa? Son dudas habituales entre estudiantes de ingeniería informática y que los participantes de esta mesa redonda han sido capaz de resolver positivamente. En el ágora se pretende resolver cualquier pregunta sobre el oficio y conocer a profesionales de todos los campos  de la informática.",
+        "hour": 1706290200000
       }
     ]
   }

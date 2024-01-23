@@ -2,12 +2,20 @@ import { FC, useMemo, useState } from 'react';
 import { Select, Timeline } from 'flowbite-react';
 import Avatar from './Avatar';
 
-export interface Event {
-  speaker: string;
+export interface RoundTable {
+  type: 'round-table';
   hour: number;
-  speakerAvatar: string; // url
   title: string;
   description: string;
+}
+
+export interface Talk {
+  type: 'talk';
+  hour: number;
+  title: string;
+  description: string;
+  speaker: string;
+  speakerAvatar: string; // url
   job: string;
   enterprise: string;
 }
@@ -15,7 +23,7 @@ export interface Event {
 export interface EventsI {
   id: string;
   day: string;
-  events: Event[];
+  events: (RoundTable | Talk)[];
 }
 
 const FormatDate = (date: number): string => {
@@ -28,18 +36,26 @@ const FormatDate = (date: number): string => {
   }).format(date);
 };
 
-const FilterData = (data: EventsI, filter: string): Event[] => {
+const FilterData = (data: EventsI, filter: string): (RoundTable | Talk)[] => {
   if (!filter) return data.events;
   filter = filter.toLowerCase();
 
-  return data.events.filter(
-    (hour) =>
-      hour.description.toLowerCase().includes(filter) ||
-      hour.speaker.toLowerCase().includes(filter) ||
-      hour.title.toLowerCase().includes(filter) ||
-      hour.job.toLowerCase().includes(filter) ||
-      hour.enterprise.toLowerCase().includes(filter)
-  );
+  return data.events.filter((event) => {
+    if (event.type === 'round-table') {
+      return (
+        event.description.toLowerCase().includes(filter) ||
+        event.title.toLowerCase().includes(filter)
+      );
+    }
+
+    return (
+      event.description.toLocaleLowerCase().includes(filter) ||
+      event.title.toLocaleLowerCase().includes(filter) ||
+      event.speaker.toLocaleLowerCase().includes(filter) ||
+      event.job.toLocaleLowerCase().includes(filter) ||
+      event.enterprise.toLocaleLowerCase().includes(filter)
+    );
+  });
 };
 
 export interface EventsTimelineProps {
@@ -86,12 +102,14 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
               <Timeline.Body className="text-pretty">
                 {event.description}
               </Timeline.Body>
-              <Avatar
-                img={event.speakerAvatar}
-                speaker={event.speaker}
-                enterprise={event.enterprise}
-                job={event.job}
-              ></Avatar>
+              {event.type === 'talk' && (
+                <Avatar
+                  img={event.speakerAvatar}
+                  speaker={event.speaker}
+                  enterprise={event.enterprise}
+                  job={event.job}
+                />
+              )}
             </Timeline.Content>
           </Timeline.Item>
         ))}

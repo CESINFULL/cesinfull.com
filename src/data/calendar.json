@@ -1,27 +1,23 @@
 [
   ["9:30", "Apertura", "Apertura"],
-  ["10:00", "Jimena", "Alberto Cruz Figuero"],
+  ["10:00", "Yodra", "Alberto Cruz Figuero"],
   ["10:30", "Alberto Abreu Lindes", "Pablo Pastor Martin"],
-  [
-    "11:00",
-    "Manuel Alejandro Bacallado López",
-    "Daniel Alejandro Álvarez Casablanca"
-  ],
+  ["11:00", "Pablo Pais Ficret", "Daniel Alejandro Álvarez Casablanca"],
   ["11:30", "Descanso", "Descanso"],
   ["12:00", "Óscar Moreira Estévez", "Elias Barba Moral"],
   ["12:30", "Silvia Alayón Miranda", "Viren Sajju Dhanwani Dhanwani"],
-  ["13:00", "Yodra", "Luis Merino Ulizarna"],
+  ["13:00", "Jimena", "Luis Merino Ulizarna"],
   ["13:30", "Descanso", "Descanso"],
   ["14:00", "Descanso", "Descanso"],
   ["14:30", "Descanso", "Descanso"],
   ["15:00", "Descanso", "Descanso"],
   ["15:30", "David Durey", "Jorge Aguiar Martin"],
   ["16:00", "Andreina", "Juan Aday Siverio González"],
-  ["16:30", "Lucía Cabrera Garabote", "Pablo Pais Ficret"],
+  ["16:30", "Lucía Cabrera Garabote", "Manuel Alejandro Bacallado López"],
   ["17:00", "Descanso", "Descanso"],
-  ["17:30", "Mesa Redonda", "Mesa Redonda"],
-  ["18:00", "Mesa Redonda", "Mesa Redonda"],
-  ["18:30", "Mesa Redonda", "Mesa Redonda"],
-  ["19:00", "Mesa Redonda", "Mesa Redonda"],
-  ["19:30", "Mesa Redonda", "Mesa Redonda"]
+  [
+    "17:30-19:30",
+    "Las comunidades tech en Canarias",
+    "El Ágora, charla con antiguos alumnos"
+  ]
 ]
