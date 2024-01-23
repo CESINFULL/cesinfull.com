@@ -37,7 +37,7 @@ const EventsSeminars = () => {
             <h3 className="text-2xl font-bold pb-4 dark:text-white">
               Infomación de los eventos
             </h3>
-            <EventsTimeline data={eventsData} />
+            <EventsTimeline data={eventsData as any} />
           </section>
         </article>
       </div>
