@@ -16,7 +16,7 @@ export default {
       },
       keyframes: {
         floating: {
-          '0% 100%': {
+          '0%, 100%': {
             'animation-timing-function': 'cubic-bezier(0.5, 0, 0.5, 1)',
             transform: 'translateY(12px)',
           },
