@@ -16,6 +16,7 @@ export default function Sponsors() {
         PATROCINADORES
       </h3>
       <div className="flex flex-wrap justify-center">
+        <h4 className="font-bold text-blue-500 text-center text-3xl w-full">Platino</h4>
         <div className="w-full p-2 md:w-1/2 xl:w-1/3">
           <a className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full" href="#">
             <img
@@ -45,6 +46,7 @@ export default function Sponsors() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center pt-6 pb-12">
+        <h4 className="font-bold text-yellow-400 text-center text-3xl w-full">Oro</h4>
         <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
           <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
             <img
