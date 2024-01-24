@@ -1,0 +1,62 @@
+[
+  {
+    "image": "ecovium.webp",
+    "name": "Ecovium",
+    "tier": "platinum",
+    "url": "https://ecovium.com/en/"
+  },
+  {
+    "image": "gdg-tenerife.webp",
+    "name": "GDG Tenerife",
+    "tier": "platinum",
+    "url": "https://gdg.community.dev/gdg-tenerife/"
+  },
+  {
+    "image": "inetel.webp",
+    "name": "Inetel",
+    "tier": "platinum",
+    "url": "https://www.grupoinetel.com/"
+  },
+  {
+    "image": "catedra-cajasiete-bob.svg",
+    "name": "Cátedra Cajasiete Big Data, Open Data y Blockchain",
+    "tier": "gold",
+    "url": "https://www.ull.es/catedras/catedrabob/"
+  },
+  {
+    "image": "catedra-edosoft-cnia.svg",
+    "name": "Cátedra Edosoft de Computación en la Nube e Inteligencia Artificial",
+    "tier": "gold",
+    "url": "https://www.ull.es/catedras/catedra-edosoft-computacion-nube/"
+  },
+  {
+    "image": "catedra-binter-ciberseguridad.svg",
+    "name": "Cátedra en Ciberseguridad Binter",
+    "tier": "gold",
+    "url": "https://www.ull.es/catedras/catedra-ciberseguridad-binter/"
+  },
+  {
+    "image": "esit.svg",
+    "name": "https://www.ull.es/centros/escuela-politecnica-superior-de-ingenieria/",
+    "tier": "gold",
+    "url": "Escuela Politécnica Superior de Ingeniería"
+  },
+  {
+    "image": "leanmind.svg",
+    "name": "Lean Mind",
+    "tier": "gold",
+    "url": "https://leanmind.es/es/"
+  },
+  {
+    "image": "python-canarias.webp",
+    "name": "Python Canarias",
+    "tier": "gold",
+    "url": "https://pythoncanarias.es/"
+  },
+  {
+    "image": "sao.webp",
+    "name": "SAO",
+    "tier": "gold",
+    "url": "https://saosl.com/"
+  }
+]
