@@ -28,7 +28,12 @@ export default function Sponsors() {
 function getPlatinumSponsors(): JSX.Element[] {
   return getSortedSponsorsByTier("platinum").map((s, i) => (
     <div className="w-full p-2 md:w-1/2 xl:w-1/3"  key={i}>
-      <a className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full" href={s.url}>
+      <a
+        className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full"
+        href={s.url}
+        target='_blank'
+        rel='noopener'
+      >
         <img
           className="block rounded w-full"
           src={`/sponsor-logos/${s.image}`}
@@ -42,7 +47,12 @@ function getPlatinumSponsors(): JSX.Element[] {
 function getGoldSponsors(): JSX.Element[] {
   return getSortedSponsorsByTier("gold").map((s, i) => (
     <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5" key={i}>
-      <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href={s.url}>
+      <a
+        className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full"
+        href={s.url}
+        target='_blank'
+        rel='noopener'
+      >
         <img
           className="block rounded w-full"
           src={`/sponsor-logos/${s.image}`}
