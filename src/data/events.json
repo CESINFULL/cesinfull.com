@@ -11,7 +11,7 @@
         "title": "Solo se clavar clavos",
         "description": "Mi carrera como Fullstack y como puedo contribuir hoy en los equipos",
         "hour": 1706176800000,
-        "speakerAvatar": "/yodra.webp"
+        "speakerAvatar": "yodra.webp"
       },
       {
         "speaker": "Alberto Abreu Lindes",
@@ -21,7 +21,7 @@
         "title": "Del 'No Puedes' al 'Puedo': De Fracaso Escolar a Squad Lead",
         "description": "En esta charla, compartiré mi viaje personal de transformación y superación. A través de mi historia, desde enfrentar repetidos fracasos académicos en la ESO hasta encontrar mi verdadera pasión y convertirme en un desarrollador Backend y Squad Lead, espero inspirar a otros a encontrar su camino.",
         "hour": 1706178600000,
-        "speakerAvatar": "/alberto_abreu.webp"
+        "speakerAvatar": "alberto_abreu.webp"
       },
       {
         "speaker": "Pablo Pais Ficret",
@@ -31,7 +31,7 @@
         "title": "VMS - El turismo para todos",
         "description": "Se va a hablar sobre una idea de APP que facilite el turismo a las personas con algún tipo de discapacidad.",
         "hour": 1706180400000,
-        "speakerAvatar": "/pablo_pais.webp"
+        "speakerAvatar": "pablo_pais.webp"
       },
       {
         "speaker": "Óscar Moreira Estévez",
@@ -41,7 +41,7 @@
         "title": "El trabajo de un programador/a más allá de la universidad",
         "description": "¡Esta es la charla que me hubiese gustado que me dieran en la carrera!\nEn esta charla, vamos a hablar sobre como es el día a día del trabajo como programador. Desde cómo es pasar de la uni al trabajo hasta lo que hacemos en proyectos diarios. Te contaré cómo son los equipos y te daré algunos consejos buenos para cuando salgas de la carrera.",
         "hour": 1706184000000,
-        "speakerAvatar": "/oscar_moreira.webp"
+        "speakerAvatar": "oscar_moreira.webp"
       },
       {
         "speaker": "Silvia Alayón Miranda",
@@ -51,7 +51,7 @@
         "title": "Inteligencia Artificial en Medicina",
         "description": "En esta charla se explicará a nivel divulgativo cómo son los sistemas más avanzados de Inteligencia Artificial para procesar imágenes, y cómo estos sistemas están revolucionando la Medicina. Además de ver las ventajas que tienen, analizaremos las desventajas y los problemas que conllevan en un campo tan delicado como es el de la Medicina.",
         "hour": 1706185800000,
-        "speakerAvatar": "/silvia_alayon.webp"
+        "speakerAvatar": "silvia_alayon.webp"
       },
       {
         "speaker": "Jimena",
@@ -61,7 +61,7 @@
         "title": "Haz tu propio juguete sexual con Python 🍑 🍆",
         "description": "¿Quién ha dicho que el hardware es una cosa difícil, aburrida y masculina? Nadie, pero tal cómo nos lo presentan eso parece.\nPues se acabó lo de aburrido (en todos los sentidos, tú ya me entiendes 😉), se acabó lo de masculino porque vamos a crear nuestro propio dildo a tu gusto (en todos los sentidos también) y, por supuesto, se acabó lo de difícil, porque vamos a aprender y nos vamos a reír.",
         "hour": 1706187600000,
-        "speakerAvatar": "/jimena.webp"
+        "speakerAvatar": "jimena.webp"
       },
       {
         "speaker": "David Durey Chief",
@@ -71,17 +71,17 @@
         "title": "Cómo afrontar una prueba técnica de un proceso de selección",
         "description": "Hace 2 años di una charla en el CESINF sobre cómo afrontar entrevistas laborales en empresas informáticas, y muchas de las preguntas que me hicieron al final y en los pasillos de forma informal fueron específicamente sobre las temidas pruebas técnicas. Podría compartir 20 años de experiencia como entrevistador y entrevistado en la realización de pruebas técnicas.",
         "hour": 1706196600000,
-        "speakerAvatar": "/david_durey.webp"
+        "speakerAvatar": "david_durey.webp"
       },
       {
-        "speaker": "Andreina",
+        "speaker": "Jhonathan Herrera",
         "type": "talk",
         "job": "Agile Coach",
         "enterprise": "TecnoFor",
         "title": "Kanban: ¿Cómo organizar tu trabajo?",
         "description": "Kanban es una metodología de gestión que se basa en la visualización del flujo de trabajo, la limitación del trabajo en curso y la mejora continua. Se puede utilizar para organizar el trabajo de forma individual o en equipo, y es una herramienta eficaz para mejorar la productividad, la eficiencia y la transparencia.",
         "hour": 1706198400000,
-        "speakerAvatar": "/andreina.webp"
+        "speakerAvatar": "jhonathan_herrera.webp"
       },
       {
         "speaker": "Lucía Cabrera Garabote",
@@ -91,7 +91,7 @@
         "title": "De oca a oca y comunidad que me toca",
         "description": "Una charla sobre las comunidades y eventos tech más conocidos y divertidos de España que busca motivar a la gente a participar en ellos.",
         "hour": 1706200200000,
-        "speakerAvatar": "/lucia_cabrera.webp"
+        "speakerAvatar": "lucia_cabrera.webp"
       },
       {
         "type": "round-table",
@@ -113,7 +113,7 @@
         "title": "La revolución de las IAs en la generación de medios audiovisuales",
         "description": "Un repaso a la revolución en el sector digital gracias a las IAs.\nRepaso de las tendencias, su evolución y demostración en vivo.",
         "hour": 1706263200000,
-        "speakerAvatar": "/alberto_cruz.webp"
+        "speakerAvatar": "alberto_cruz.webp"
       },
       {
         "speaker": "Pablo Pastor Martin",
@@ -123,7 +123,7 @@
         "title": "Monorepos, lo bueno y lo malo",
         "description": "El concepto de monorepo ha venido ganando popularidad en los últimos años debido a su capacidad de simplificar muchos procesos de mantenimiento y gestión de grandes proyectos. Además, nuevas herramientas pueden permitir solventar algunos de sus problemas históricos. En esta charla ahondaremos en las virtudes y flaquezas de los monorepos y veremos dónde y por qué tiene sentido usarlos.",
         "hour": 1706265000000,
-        "speakerAvatar": "/pablo_pastor.webp"
+        "speakerAvatar": "pablo_pastor.webp"
       },
       {
         "speaker": "Daniel Alejandro Álvarez Casablanca",
@@ -133,7 +133,7 @@
         "title": "Mundos Virtuales y Creatividad en Código: Explorando FiveM en GTA",
         "description": "En esta charla, exploraremos el fascinante mundo de FiveM, una plataforma modificada para GTA que permite a los jugadores y programadores crear y disfrutar de experiencias únicas en un entorno virtual. Me centraré en los diversos proyectos en los que he trabajado y estoy actualmente involucrado, destacando cómo FiveM abre un abanico de posibilidades para la programación en múltiples áreas como full stack, devops, ciberseguridad y desarrollo en general.\nResaltaré cómo, a través de proyectos como Tenderete City y otros, he utilizado FiveM no solo para entretener, sino también para innovar y experimentar con nuevas tecnologías.",
         "hour": 1706266800000,
-        "speakerAvatar": "/daniel_alejandro.webp"
+        "speakerAvatar": "daniel_alejandro.webp"
       },
       {
         "speaker": "Elias Barba Moral",
@@ -143,7 +143,7 @@
         "title": "¿Qué necesito para trabajar en IA?",
         "description": "IA, ciberseguridad, arquitectura, camarero,... las salidas laborales de la carrera informática son ilimitadas y crecen cada día. Es comprensible que ante una variedad de opciones tan grande sea difícil decidir a donde quiero enfocar mis estudios y mi vida laboral. En esta charla les voy a contar cuales creo que son las características que debe tener cualquier persona que quiera trabajar en IA; como yo las incumplo todas, y a pesar de ello he conseguido trabajo en ello.",
         "hour": 1706270400000,
-        "speakerAvatar": "/elias_barba.webp"
+        "speakerAvatar": "elias_barba.webp"
       },
       {
         "speaker": "Viren Sajju Dhanwani Dhanwani",
@@ -153,7 +153,7 @@
         "title": "De lo Técnico a lo Tangible: Estrategias para Comunicar con Claridad",
         "description": "En el mundo laboral es habitual comunicarse con personas de distintas áreas a las que hay que explicar decisiones técnicas, pero de una manera clara y sin entrar en tecnicismos propios del desarrollo. En esta charla pretendo dar una serie de estrategias que uso diariamente para intentar simplificar conceptos complejos.",
         "hour": 1706272200000,
-        "speakerAvatar": "/viren_dhanwani.webp"
+        "speakerAvatar": "viren_dhanwani.webp"
       },
       {
         "speaker": "Luis Merino Ulizarna",
@@ -163,7 +163,7 @@
         "title": "Si no puedes con tu enemigo, únete a él. Aplicaciones de la IA a diversos ámbitos. ",
         "description": "A estas alturas estamos abrumados por la cantidad de información que hay sobre la IA y cada vez más preocupados por si todos estos sistemas nos quitarán el trabajo y dominarán el mundo dejando a los humanos como tristes lacayos. Da la impresión de que todo es malo y catastrofista, sin embargo hay muchísimas ventajas que traen consigo bajo el brazo. En esta charla introductoria veremos casos prácticos de la IA y su funcionamiento interno, así como sus aplicaciones al mundo real. Seguro que habéis oído hablar sobre ChatGPT o Copilot pero igual no tanto de BioGPT o AlphaFold. Veremos las ayudas que nos pueden ofrecer tanto al desarrollo como a otros ámbitos como es el de la salud, hasta el punto de predecir el cáncer de piel a través de redes neuronales. En definitiva, hablaremos del universo que es la IA quitándole la sábana al fantasma de Scooby Doo, hablando de  Machine Learning, Deep Learning, redes generativas, redes neuronales, proceso de entrenamiento, transferencia de aprendizaje así como una introducción a las herramientas necesarias para crear vuestra primera red neuronal. ¡No lo pienses más y adéntrate conmigo en la cuarta revolución industrial!",
         "hour": 1706274000000,
-        "speakerAvatar": "/luis_merino.webp"
+        "speakerAvatar": "luis_merino.webp"
       },
       {
         "speaker": "Jorge Aguiar Martin",
@@ -173,7 +173,7 @@
         "title": "Mundo Laboral: Lo que pides vs lo que te llega",
         "description": "Compararemos expectativas del mercado laboral con la realidad existente hoy día (basado en mi experiencia obviamente) y arrojaremos luz sobre el día a día en el desarrollo del software.",
         "hour": 1706283000000,
-        "speakerAvatar": "/jorge_aguiar.webp"
+        "speakerAvatar": "jorge_aguiar.webp"
       },
       {
         "speaker": "Juan Aday Siverio González",
@@ -183,7 +183,7 @@
         "title": "WhyGod? - Así dirigí y programé un videojuego",
         "description": "WhyGod? es un videojuego 2D creado por mi estudio de videojuegos Twisted Drago y programado únicamente por mí.\nEl videojuego salé en diciembre de 2023 por primera vez en Steam y ya ha sido presentado en la TGG, en el Instagram del estudio @twisteddragostudios. Donde fue bastante reconocido.",
         "hour": 1706284800000,
-        "speakerAvatar": "/juan_siverio.webp"
+        "speakerAvatar": "juan_siverio.webp"
       },
       {
         "speaker": "Manuel Alejandro Bacallado López",
@@ -193,7 +193,7 @@
         "title": "La complejidad de hacer un videojuego simple",
         "description": "La charla trata sobre como abordar a todos los niveles la creación de un videojuego \"simple\", y todas las complicaciones tanto técnicas como no técnicas que pueden ir surgiendo por el camino.",
         "hour": 1706286600000,
-        "speakerAvatar": "/manuel_bacallado.webp"
+        "speakerAvatar": "manuel_bacallado.webp"
       },
       {
         "type": "round-table",

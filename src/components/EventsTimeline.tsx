@@ -104,7 +104,7 @@ const EventsTimeline: FC<EventsTimelineProps> = ({ data }) => {
               </Timeline.Body>
               {event.type === 'talk' && (
                 <Avatar
-                  img={event.speakerAvatar}
+                  img={`/speakers/${event.speakerAvatar}`}
                   speaker={event.speaker}
                   enterprise={event.enterprise}
                   job={event.job}
