@@ -1,13 +1,11 @@
-import logoCatedraBOB from '../images/catedra-cajasiete-bob.svg';
-import logoCatedraCNIA from '../images/catedra-edosoft-cnia.svg';
-import logoCatedraCiberSeg from '../images/catedra-binter-ciberseguridad.svg';
-import logoEcovium from '../images/ecovium_sponsor.webp';
-import logoESIT from '../images/esit.svg';
-import logoGdgTenerife from '../images/gdg-tenerife.webp';
-import logoInetel from '../images/inetel.webp';
-import logoLeanMind from '../images/leanmind.svg';
-import logoPythonCanarias from '../images/python-canarias.webp';
-import logoSao from '../images/sao.webp';
+import sponsors from '../data/sponsors.json';
+
+interface SponsorData {
+  image: string;
+  name: string;
+  tier: "platinum" | "gold";
+  url: string;
+}
 
 export default function Sponsors() {
   return (
@@ -17,100 +15,55 @@ export default function Sponsors() {
       </h3>
       <div className="flex flex-wrap justify-center">
         <h4 className="font-bold text-blue-500 text-center text-3xl w-full">Platino</h4>
-        <div className="w-full p-2 md:w-1/2 xl:w-1/3">
-          <a className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoEcovium}
-              alt="Ecovium"
-            />
-          </a>
-        </div>
-        <div className="w-full p-2 md:w-1/2 xl:w-1/3">
-          <a className=" bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoGdgTenerife}
-              alt="GDG Tenerife"
-            />
-          </a>
-        </div>
-        <div className="w-full p-2 md:w-1/2 xl:w-1/3">
-          <a className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoInetel}
-              alt="Inetel"
-            />
-          </a>
-        </div>
+        {getPlatinumSponsors()}
       </div>
       <div className="flex flex-wrap justify-center pt-6 pb-12">
         <h4 className="font-bold text-yellow-400 text-center text-3xl w-full">Oro</h4>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoCatedraBOB}
-              alt="Cátedra Cajasiete Big Data, Open Data y Blockchain"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className=" bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoCatedraCNIA}
-              alt="Cátedra Edosoft de Computación en la Nube e Inteligencia Artificial"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoCatedraCiberSeg}
-              alt="Cátedra en Ciberseguridad Binter"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoESIT}
-              alt="Escuela Politécnica Superior de Ingeniería"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoLeanMind}
-              alt="Lean Mind"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoPythonCanarias}
-              alt="Python Canarias"
-            />
-          </a>
-        </div>
-        <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-          <a className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full" href="#">
-            <img
-              className="block rounded w-full"
-              src={logoSao}
-              alt="SAO"
-            />
-          </a>
-        </div>
+        {getGoldSponsors()}
       </div>
     </>
   );
+}
+
+function getPlatinumSponsors(): JSX.Element[] {
+  return getSortedSponsorsByTier("platinum").map((s, i) => (
+    <div className="w-full p-2 md:w-1/2 xl:w-1/3"  key={i}>
+      <a
+        className="bg-white border-b-8 border-blue-500 flex h-full items-center p-2 rounded w-full"
+        href={s.url}
+        target='_blank'
+        rel='noopener'
+      >
+        <img
+          className="block rounded w-full"
+          src={`/sponsor-logos/${s.image}`}
+          alt={s.name}
+        />
+      </a>
+    </div>
+  ));
+}
+
+function getGoldSponsors(): JSX.Element[] {
+  return getSortedSponsorsByTier("gold").map((s, i) => (
+    <div className="w-1/2 p-2 md:w-1/3 lg:w-1/4 xl:w-1/5" key={i}>
+      <a
+        className="bg-white border-b-8 border-yellow-400 flex h-full items-center p-2 rounded w-full"
+        href={s.url}
+        target='_blank'
+        rel='noopener'
+      >
+        <img
+          className="block rounded w-full"
+          src={`/sponsor-logos/${s.image}`}
+          alt={s.name}
+        />
+      </a>
+    </div>
+  ));
+}
+
+function getSortedSponsorsByTier(tier: string): SponsorData[] {
+  const compareStr = Intl.Collator().compare;
+  return sponsors.filter(s => s.tier === tier).sort((a, b) => compareStr(a.name, b.name)) as SponsorData[];
 }
